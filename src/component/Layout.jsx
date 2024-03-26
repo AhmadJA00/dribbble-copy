@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 export default function Layout() {
   return (
     <main data-theme="light" className="bg-light w-screen ">
-      {/* <Navbar /> */}
+      <Navbar />
       <section className="">
         <Outlet />
       </section>
