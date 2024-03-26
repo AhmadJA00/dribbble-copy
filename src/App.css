@@ -1,0 +1,49 @@
+body {
+  box-sizing: border-box;
+  font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+.bg-animated {
+  animation-name: color_change;
+  animation-duration: 32s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes color_change {
+  0% {
+    background-color: #ffda79;
+  }
+  25% {
+    background-color: #ffabe7;
+  }
+  50% {
+    background-color: #d2bcf3;
+  }
+  75% {
+    background-color: #edf3d8;
+  }
+  100% {
+    background-color: #ffda79;
+  }
+}
+.Serif4 {
+  font-family: "Source Serif 4", serif !important;
+}
+
+/* .sliderAnimate {
+  overflow: hidden;
+  animation-name: slider_animate;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@-webkit-keyframes slider_animate {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(calc(-50% - 16px), 0, 0);
+  }
+} */
