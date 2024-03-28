@@ -41,12 +41,6 @@ export default function Navbar() {
         >
           Our Service
         </Link>
-        <Link
-          to={"/shots"}
-          className="hover:text-black/[0.7] duration-300 ease-in-out"
-        >
-          Shots
-        </Link>
         <div className="dropdown dropdown-hover hover:text-black/[0.7] duration-300 ease-in-out">
           <div
             tabIndex={0}
